@@ -1,17 +1,181 @@
-#home {
-  background-color: #D23333;
+.body {
+    background-color: #F8F8F8;
+}
+
+.first-section {
+  background-color: #F8F8F8;
   color: white;
   height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  p {
-    margin-top: 1.5em;
+  background-image: url("../images/first-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+.first-section-content {
+  display: flex;
+
+  #logo {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    height: 30px;
+    display: flex;
   }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
+
+
+  .first-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 75px;
+  }
+
+  .first-section-image {
+    display: flex;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    img {
+      width: 200px;
+      height: 406px;
+    }
+  }
+}
+}
+
+.second-section {
+    background-image: url("../images/back-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -7%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+    .icon {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin: 0 50px;
+
+      img {
+        width: 75px;
+      }
+
+      p {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px;
+      }
+
+      span {
+        font-size:14px;
+        color:#9E9E9E;
+      }
+
+      #icon-trophee {
+        color: #349EE4;
+        font-size: 20px;
+      }
+
+      #icon-1 {
+        color: #5640D0;
+      }
+
+      #icon-2 {
+        color: #EC24A1;
+      }
+      #icon-3 {
+        color: #1DCFA8;
+      }
+      #icon-4 {
+        color: #40BCD0;
+      }
+      #trophee {
+        width: 100px;
+      }
+    }
+
+    #trophee-section {
+      margin: auto;
+      margin-top: 100px;
+    }
+    .second-section-content {
+      display: flex;
+      justify-content: space-around;
+      margin: auto 75px;
+    }
+}
+
+
+.third-section {
+  background-image: url("../images/back-3-landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+  p {
+    font-weight: lighter;
+  }
+
+  .third-section-content {
+    display: flex;
+    margin: 75px auto;
+    width: 90%;
+
+    .third-section-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto 75px;
+    }
+
+    .third-section-image {
+      display: flex;
+      margin: auto 75px;
+
+      img {
+        width: 200px;
+        height: 406px;
+      }
+    }
+  }
+}
+
+.fourth-section {
+    background-image: url("../images/back-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #9842B4;
+    font-weight: lighter;
+    text-align: center;
+}
+
+footer {
+  display: flex;
+  color: white;
+  background-image: url("../images/the-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: lighter;
+  padding: 20px 50px;
+  justify-content: space-between;
+  font-size: 12px;
+  align-items: center;
+
+  img {
+    width: 50px;
+    margin-left: 20px;
   }
 }
