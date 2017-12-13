@@ -160,6 +160,13 @@
     color: #9842B4;
     font-weight: lighter;
     text-align: center;
+
+    .bottom {
+      width: 700px;
+      input {
+        border: 1px solid lightgrey;
+      }
+    }
 }
 
 footer {
@@ -178,4 +185,18 @@ footer {
     width: 50px;
     margin-left: 20px;
   }
+}
+
+/* Input form email */
+
+input {
+  border-radius: 5px;
+  padding: 5px;
+  color: darkgrey;
+  font-size: 15px;
+  font-weight: lighter;
+  border-width: 0px;
+  width: 60%;
+  text-align: center;
+  margin-top: 50px;
 }
